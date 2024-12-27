@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Palindrome{
     public static void main(String [] args){
         int r,temp,p=0;
@@ -11,7 +10,6 @@ public class Palindrome{
             r=temp%10;
             p=r+(p*10);
             temp=temp/10;
-
         }
         if(n==p){
             System.out.println(n +" is palindrome number ");
